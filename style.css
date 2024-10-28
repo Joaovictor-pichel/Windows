@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: crimson;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 50%;
+    height: 75%;
+}
+#inicio{
+    bottom: 0;
+    background: linear-gradient(rgb(50, 191, 196) 0%, rgb(28, 121, 197) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#sobre{
+        background: linear-gradient(rgb(28, 121, 197) 0%, rgb(223, 113, 10) 100%);
+        display: table;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+    }
+    #informaçoes{
+        background: linear-gradient(rgb(223, 113, 10) 0%, rgb(18, 155, 173) 100%);
+        width: 100%;
+        height: 65%;
+        display: table;
+        z-index: 9;
+    }
+    #videos{
+        background: linear-gradient(rgb(18, 155, 173) 0%, rgb(230, 18, 18) 100%);
+        width: 100%;
+        height: 50%;
+        display: table;
+        z-index: 9;
+    }
+    #mapa {
+        background: linear-gradient(rgb(199, 23, 23) 0%, rgb(19, 170, 230) 100%);
+        width: 100%;
+        height: 50%;
+        display: table;
+        z-index: 9;
+    }
+    #instagram {
+        background: linear-gradient(rgb(17, 161, 218) 0%, rgb(228, 132, 6) 100%);
+        width: 100%;
+        height: 50%;
+        display: table;
+        z-index: 9;
+    }
+    .line {
+        height: 6px;
+        background-color: rgb(223, 31, 88);
+        width: 70px;
+        margin: 8px auto;
+    }
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+.myNavbar {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.link {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: 'Open Sans', cursive;
+    font-size: 20px;
+}
+.links:hover {
+    font-size: 25px;
+}
+#contatos iframe {
+    width: 100%;
+}
+.contatos_1 h2 {
+    display: inline;
+    padding-bottom:20px;
+}
+
